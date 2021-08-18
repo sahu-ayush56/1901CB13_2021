@@ -32,10 +32,9 @@ def meraki_helper(n):
 	"""This will detect meraki number"""
 
 
-# input = [12, 14, 56, 78, 98, 54, 678, 134, 789, 0, 7, 5, 123, 45, 76345,
-# 987654321,101]
+input = [12, 14, 56, 78, 98, 54, 678, 134, 789, 0, 7, 5, 123, 45, 76345, 987654321];
 
-input = [int(elements) for elements in input("Enter the elements : ").split()] 
+# input = [int(elements) for elements in input("Enter the elements : ").split()] 
 for x in input :
 	meraki_helper(x);
 	
