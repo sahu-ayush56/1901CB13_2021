@@ -1,5 +1,4 @@
 import os.path
-
 def output_by_subject(dataset):
     parentdir="output_by_subject"
     if os.path.exists(parentdir)==False:
